@@ -16,7 +16,7 @@ shape = loadAircraftMAT('aircraft_pa24-250.mat', shapeScaleFactor);
 
 %% Set the aircraft in place
 % Posision in Earth axes
-vXYZe = [2,2,-2];
+vXYZe = [2,2,-3];
 % psi, theta, phi -> 'ZYX'
 vEulerAngles = convang([20,10,0],'deg','rad');
 % Observer point-of-view
